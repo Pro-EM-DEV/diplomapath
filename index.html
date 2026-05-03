@@ -87,6 +87,25 @@
       </div>
     </section>
 
+    <!-- INTRODUCTION -->
+    <section class="intro-section" id="intro" style="padding: 80px 0; background: var(--bg-secondary); border-bottom: 1px solid var(--border);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">👋 Welcome to DiplomaPath</div>
+          <h2 class="section-title">About Our Platform</h2>
+          <p class="section-subtitle">Empowering your technical career journey</p>
+        </div>
+        <div class="intro-content reveal" style="max-width: 850px; margin: 0 auto; text-align: center;">
+          <p style="font-size: 1.15rem; color: var(--text-secondary); margin-bottom: 24px;">
+            DiplomaPath India was created with a singular purpose: to bring transparency, clarity, and expert guidance to students pursuing technical education after 10th and 12th grade. We understand that choosing the right polytechnic college and engineering branch is one of the most critical decisions in a student's life.
+          </p>
+          <p style="font-size: 1.15rem; color: var(--text-secondary);">
+            Our platform provides verified, up-to-date information on over 50+ top colleges, including detailed fee structures, placement records, and admission procedures. Powered by our AI <strong>Career Guru</strong> and seasoned industry experts, we aim to guide every single student toward a bright, secure, and successful engineering career.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- VISION & MISSION -->
     <section class="vm-section">
       <div class="container">
@@ -572,23 +591,26 @@
   </div>
 
   <!-- CHATBOT GUIDE -->
-  <div class="chatbot-button" id="chatbot-button" onclick="toggleChat()">
-    <div class="chatbot-icon"><img src="https://api.dicebear.com/7.x/notionists/svg?seed=Professor&backgroundColor=f8fafc" alt="Guide" class="avatar-img"></div>
+  <div class="chatbot-wrapper" id="chatbot-button" onclick="toggleChat()">
+    <div class="chatbot-button">
+      <div class="chatbot-icon"><img src="https://api.dicebear.com/7.x/notionists/svg?seed=Professor&backgroundColor=f8fafc" alt="Guide" class="avatar-img"></div>
+    </div>
+    <div class="chatbot-label">Career Guru</div>
   </div>
   <div class="chat-window" id="chat-window">
     <div class="chat-header">
       <div class="chat-header-info">
         <span class="chat-avatar"><img src="https://api.dicebear.com/7.x/notionists/svg?seed=Professor&backgroundColor=f8fafc" alt="Guide" class="avatar-img"></span>
         <div>
-          <h4>Guide</h4>
-          <p>Career Counselor</p>
+          <h4>Career Guru</h4>
+          <p>AI Career Counselor</p>
         </div>
       </div>
       <button class="chat-close" onclick="toggleChat()">✕</button>
     </div>
     <div class="chat-messages" id="chat-messages">
       <div class="chat-msg bot-msg">
-        <div class="msg-bubble">Hi! I'm Guide, your AI Career Counselor. How can I help you with your college or admission queries today?</div>
+        <div class="msg-bubble">Hi! I'm your AI Career Guru. How can I help you with your college or admission queries today?</div>
       </div>
     </div>
     <div class="chat-input-area">

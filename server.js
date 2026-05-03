@@ -3,14 +3,14 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-// Read the OPENAI_API_KEY directly from the .env file if it exists
-let apiKey = '';
+// Read the OPENAI_API_KEY directly from the .env file if it exists, or from Render environment variables
+let apiKey = process.env.OPENAI_API_KEY || '';
 try {
   const envFile = fs.readFileSync(path.join(__dirname, '.env'), 'utf8');
   const match = envFile.match(/OPENAI_API_KEY=(.+)/);
-  if (match) apiKey = match[1].trim();
+  if (match) apiKey = match[1].trim() || apiKey;
 } catch (e) {
-  console.log("Could not read .env file");
+  console.log("Running without local .env file (using environment variables)");
 }
 
 const SYSTEM_PROMPT = `
@@ -104,7 +104,12 @@ const server = http.createServer(async (req, res) => {
 
   // Serve Static Files
   if (req.method === 'GET') {
-    let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url);
+    let parsedUrl = req.url.split('?')[0];
+    if (parsedUrl === '/') parsedUrl = '/index.html';
+    
+    // Remove leading slash so path.join resolves correctly inside __dirname on Linux
+    let filePath = path.join(__dirname, parsedUrl.replace(/^\//, ''));
+    
     const extname = String(path.extname(filePath)).toLowerCase();
     const contentType = mimeTypes[extname] || 'application/octet-stream';
 
