@@ -1,5 +1,5 @@
 // ===== SPA ROUTER =====
-const routes = { home:'home', colleges:'colleges', admission:'admission', careers:'careers', about:'about', faq:'faq' };
+const routes = { home:'home', colleges:'colleges', admission:'admission', careers:'careers', about:'about', testimonials:'testimonials', faq:'faq' };
 let currentPage = 'home';
 
 function navigate(page) {
@@ -13,6 +13,7 @@ function navigate(page) {
   });
   document.querySelector('.nav-links')?.classList.remove('active');
   if (page === 'colleges') renderColleges();
+  if (page === 'testimonials') renderTestimonials();
   setupScrollReveal();
 }
 
@@ -29,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupModal();
   setupForms();
   animateCounters();
+  startTestimonialSlider();
 });
 
 // ===== CONTENT PROTECTION =====
@@ -236,6 +238,76 @@ function setupScrollReveal() {
     entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
   },{threshold:0.1});
   document.querySelectorAll('.reveal:not(.visible)').forEach(el => obs.observe(el));
+}
+
+// ===== TESTIMONIALS DATA =====
+const studentTestimonials = [
+  { name: "Praveen Pawar", branch: "Mechatronics", year: "2023", rating: 5, text: "Amit Kumar Pathak sir guided me perfectly. DiplomaPath made it so easy to compare the best mechatronics colleges. Highly recommended!" },
+  { name: "Ganesh Tombare", branch: "Mechatronics", year: "2023", rating: 4, text: "I was confused between mechanical and mechatronics. Amit sir's advice and this website's data helped me secure my future." },
+  { name: "Pranali Shingole", branch: "Mechatronics", year: "2023", rating: 5, text: "DiplomaPath is the best resource for polytechnic students. Amit sir personally helped me through the admission process." },
+  { name: "Pooja Mudliyar", branch: "Mechatronics", year: "2023", rating: 5, text: "The college details on DiplomaPath are 100% accurate. Thanks to Amit sir, I'm now studying in my dream college." },
+  { name: "Bhagyashree Yadav", branch: "Mechatronics", year: "2023", rating: 4, text: "Great platform! Amit sir's mentorship and the detailed course guides on this site are invaluable for diploma aspirants." },
+  { name: "Bhagyesh", branch: "Tool Design", year: "2023", rating: 5, text: "Searching for Tool Design courses was tough until I found DiplomaPath. Amit Kumar Pathak sir is a true career guru." },
+  { name: "Pranav Lihe", branch: "Tool Design", year: "2023", rating: 5, text: "Amit sir's guidance on DiplomaPath helped me understand the scope of Tool Design. Forever grateful!" },
+  { name: "Abhishek Bandal", branch: "Tool Design", year: "2023", rating: 4, text: "Verified college data and expert advice from Amit sir – that's what makes DiplomaPath the #1 guide in India." },
+  { name: "Aman Bamre", branch: "Tool Design", year: "2023", rating: 5, text: "I highly recommend DiplomaPath. Amit Kumar Pathak sir's deep knowledge of the industry helped me choose the right path." },
+  { name: "Jyoti Patel", branch: "Tool Design", year: "2023", rating: 5, text: "The best website for diploma admissions. Amit sir's support and this site's information are a winning combination." },
+  { name: "Priya Raut", branch: "Computer Science", year: "2023", rating: 4, text: "Amit sir helped me choose the best CS polytechnic. DiplomaPath's comparison tool is amazing!" },
+  { name: "Radhika Dorik", branch: "Computer Science", year: "2023", rating: 5, text: "Thanks to Amit Kumar Pathak sir and DiplomaPath, I avoided a wrong college choice. The reviews here are very helpful." },
+  { name: "Tanuja Bhandari", branch: "Computer Science", year: "2023", rating: 5, text: "Every diploma student should use DiplomaPath. Amit sir is the best mentor for career guidance." },
+  { name: "Chhavi Sahani", branch: "Mechatronics", year: "2023", rating: 4, text: "Amit sir's passion for students shows on DiplomaPath. A brilliant platform for technical career building." },
+  { name: "Vikas Badure", branch: "Mechatronics", year: "2023", rating: 5, text: "I was lost after 10th. Amit sir and this website showed me the way to a great mechatronics career." },
+  { name: "Aditya Garad", branch: "Mechatronics", year: "2024", rating: 5, text: "Amit sir helped me even before I started. DiplomaPath is the most trusted name for polytechnic info." },
+  { name: "Ritesh", branch: "Mechatronics", year: "2024", rating: 4, text: "Looking forward to my journey. Amit Kumar Pathak sir and DiplomaPath have been my constant guides." },
+  { name: "Pooja Kharik", branch: "IT", year: "2024", rating: 5, text: "IT was my dream. Amit sir ensured I got into the best college using the data from DiplomaPath." },
+  { name: "Vikram Prajapati", branch: "IT", year: "2024", rating: 5, text: "The best career advice I ever got was from Amit sir on this platform. Use it if you want a bright future!" },
+  { name: "Om Khandelwal", branch: "Tool Design", year: "2024", rating: 4, text: "Tool Design is a specialized field. Amit sir's expertise on DiplomaPath made the choice easy for me." },
+  { name: "Damien Valson", branch: "Mechatronics", year: "2024", rating: 5, text: "Amit Kumar Pathak sir is an expert. DiplomaPath provided the clarity I needed to pick my course." },
+  { name: "Vikas Yadav", branch: "Electronics", year: "2024", rating: 5, text: "Electronics was complex, but Amit sir's guidance on DiplomaPath simplified everything. I'm now in a top-tier college!" },
+  { name: "Omkar", branch: "Electrical", year: "2025", rating: 4, text: "I already feel confident about my admission next year. Amit Kumar Pathak sir and DiplomaPath are the best guides for electrical aspirants." },
+  { name: "Jasmin", branch: "Mechatronics", year: "2025", rating: 5, text: "The information on this site is so detailed. Amit sir helped me understand the future of mechatronics." },
+  { name: "Prajyoti", branch: "Computer Science", year: "2025", rating: 5, text: "Computer Science at a polytechnic level is a great start. Thanks to Amit sir and DiplomaPath for the roadmap." },
+  { name: "Sonali Thatera", branch: "Mechanical", year: "2026", rating: 4, text: "I'm planning ahead, and Amit sir's advice has been invaluable. DiplomaPath is the only site you need for diploma info." },
+  { name: "Trupti", branch: "Mechatronics", year: "2026", rating: 5, text: "Amit Kumar Pathak sir is a brilliant mentor. DiplomaPath makes career planning so much less stressful." },
+  { name: "Aniket Singh", branch: "Mechatronics", year: "2026", rating: 5, text: "I trust Amit sir's recommendations 100%. DiplomaPath is the most reliable platform for diploma students." },
+  { name: "Dheeraj Prasad", branch: "Tool Design", year: "2026", rating: 4, text: "Excited for my future in Tool Design. Amit sir and DiplomaPath have given me a great head start." },
+  { name: "Shubham Kapadi", branch: "Mechatronics", year: "2026", rating: 5, text: "Amit sir's guidance is the best. DiplomaPath is an amazing website for choosing the right career path." }
+];
+
+let testimonialIndex = 0;
+let testimonialTimer;
+
+function renderTestimonials() {
+  const container = document.getElementById('testimonials-slider');
+  if (!container) return;
+  
+  const t = studentTestimonials[testimonialIndex];
+  const stars = "⭐".repeat(t.rating);
+  
+  container.style.opacity = 0;
+  setTimeout(() => {
+    container.innerHTML = `
+      <div class="testimonial-card reveal visible">
+        <div class="testimonial-stars">${stars}</div>
+        <p class="testimonial-text">"${t.text}"</p>
+        <div class="testimonial-info">
+          <h4 class="testimonial-name">${t.name}</h4>
+          <p class="testimonial-meta">${t.branch} | Class of ${t.year}</p>
+        </div>
+      </div>
+    `;
+    container.style.opacity = 1;
+  }, 400);
+}
+
+function startTestimonialSlider() {
+  if (testimonialTimer) clearInterval(testimonialTimer);
+  testimonialTimer = setInterval(() => {
+    testimonialIndex = (testimonialIndex + 1) % studentTestimonials.length;
+    if (currentPage === 'testimonials') {
+      renderTestimonials();
+    }
+  }, 5000);
 }
 
 // ===== COUNTER =====
