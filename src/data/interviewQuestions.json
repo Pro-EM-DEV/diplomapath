@@ -1,0 +1,506 @@
+{
+  "technical": [
+    {
+      "id": "tech-1",
+      "question": "[Software] Question 1: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-2",
+      "question": "[Electrical] Question 2: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-3",
+      "question": "[Civil] Question 3: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-4",
+      "question": "[Automation] Question 4: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-5",
+      "question": "[Mechanical] Question 5: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-6",
+      "question": "[Software] Question 6: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-7",
+      "question": "[Electrical] Question 7: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-8",
+      "question": "[Civil] Question 8: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-9",
+      "question": "[Automation] Question 9: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-10",
+      "question": "[Mechanical] Question 10: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-11",
+      "question": "[Software] Question 11: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-12",
+      "question": "[Electrical] Question 12: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-13",
+      "question": "[Civil] Question 13: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-14",
+      "question": "[Automation] Question 14: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-15",
+      "question": "[Mechanical] Question 15: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-16",
+      "question": "[Software] Question 16: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-17",
+      "question": "[Electrical] Question 17: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-18",
+      "question": "[Civil] Question 18: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-19",
+      "question": "[Automation] Question 19: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-20",
+      "question": "[Mechanical] Question 20: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-21",
+      "question": "[Software] Question 21: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-22",
+      "question": "[Electrical] Question 22: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-23",
+      "question": "[Civil] Question 23: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-24",
+      "question": "[Automation] Question 24: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-25",
+      "question": "[Mechanical] Question 25: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-26",
+      "question": "[Software] Question 26: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-27",
+      "question": "[Electrical] Question 27: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-28",
+      "question": "[Civil] Question 28: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-29",
+      "question": "[Automation] Question 29: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-30",
+      "question": "[Mechanical] Question 30: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-31",
+      "question": "[Software] Question 31: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-32",
+      "question": "[Electrical] Question 32: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-33",
+      "question": "[Civil] Question 33: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-34",
+      "question": "[Automation] Question 34: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-35",
+      "question": "[Mechanical] Question 35: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-36",
+      "question": "[Software] Question 36: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-37",
+      "question": "[Electrical] Question 37: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-38",
+      "question": "[Civil] Question 38: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-39",
+      "question": "[Automation] Question 39: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-40",
+      "question": "[Mechanical] Question 40: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-41",
+      "question": "[Software] Question 41: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-42",
+      "question": "[Electrical] Question 42: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-43",
+      "question": "[Civil] Question 43: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-44",
+      "question": "[Automation] Question 44: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-45",
+      "question": "[Mechanical] Question 45: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-46",
+      "question": "[Software] Question 46: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-47",
+      "question": "[Electrical] Question 47: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-48",
+      "question": "[Civil] Question 48: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-49",
+      "question": "[Automation] Question 49: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-50",
+      "question": "[Mechanical] Question 50: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-51",
+      "question": "[Software] Question 51: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-52",
+      "question": "[Electrical] Question 52: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-53",
+      "question": "[Civil] Question 53: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-54",
+      "question": "[Automation] Question 54: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-55",
+      "question": "[Mechanical] Question 55: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-56",
+      "question": "[Software] Question 56: Explain a core concept related to your engineering domain.",
+      "answer": "In Software engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-57",
+      "question": "[Electrical] Question 57: Explain a core concept related to your engineering domain.",
+      "answer": "In Electrical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-58",
+      "question": "[Civil] Question 58: Explain a core concept related to your engineering domain.",
+      "answer": "In Civil engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-59",
+      "question": "[Automation] Question 59: Explain a core concept related to your engineering domain.",
+      "answer": "In Automation engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    },
+    {
+      "id": "tech-60",
+      "question": "[Mechanical] Question 60: Explain a core concept related to your engineering domain.",
+      "answer": "In Mechanical engineering, this concept is fundamental. It involves understanding the physical or logical principles that govern the system's behavior. Always structure your answer by defining the concept, explaining its application, and providing a real-world example from your diploma projects."
+    }
+  ],
+  "hr": [
+    {
+      "id": "hr-1",
+      "question": "[Motivation] Question 1: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-2",
+      "question": "[Leadership] Question 2: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-3",
+      "question": "[Conflict] Question 3: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-4",
+      "question": "[Career Goals] Question 4: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-5",
+      "question": "[Behavioral] Question 5: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-6",
+      "question": "[Motivation] Question 6: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-7",
+      "question": "[Leadership] Question 7: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-8",
+      "question": "[Conflict] Question 8: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-9",
+      "question": "[Career Goals] Question 9: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-10",
+      "question": "[Behavioral] Question 10: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-11",
+      "question": "[Motivation] Question 11: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-12",
+      "question": "[Leadership] Question 12: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-13",
+      "question": "[Conflict] Question 13: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-14",
+      "question": "[Career Goals] Question 14: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-15",
+      "question": "[Behavioral] Question 15: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-16",
+      "question": "[Motivation] Question 16: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-17",
+      "question": "[Leadership] Question 17: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-18",
+      "question": "[Conflict] Question 18: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-19",
+      "question": "[Career Goals] Question 19: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-20",
+      "question": "[Behavioral] Question 20: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-21",
+      "question": "[Motivation] Question 21: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-22",
+      "question": "[Leadership] Question 22: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-23",
+      "question": "[Conflict] Question 23: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-24",
+      "question": "[Career Goals] Question 24: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-25",
+      "question": "[Behavioral] Question 25: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-26",
+      "question": "[Motivation] Question 26: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-27",
+      "question": "[Leadership] Question 27: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-28",
+      "question": "[Conflict] Question 28: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-29",
+      "question": "[Career Goals] Question 29: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-30",
+      "question": "[Behavioral] Question 30: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-31",
+      "question": "[Motivation] Question 31: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-32",
+      "question": "[Leadership] Question 32: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-33",
+      "question": "[Conflict] Question 33: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-34",
+      "question": "[Career Goals] Question 34: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-35",
+      "question": "[Behavioral] Question 35: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-36",
+      "question": "[Motivation] Question 36: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-37",
+      "question": "[Leadership] Question 37: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-38",
+      "question": "[Conflict] Question 38: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-39",
+      "question": "[Career Goals] Question 39: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    },
+    {
+      "id": "hr-40",
+      "question": "[Behavioral] Question 40: Can you describe a situation where you demonstrated this skill?",
+      "answer": "Use the STAR method (Situation, Task, Action, Result). Briefly describe the context, what your specific responsibility was, the exact steps you took to resolve the issue, and the positive outcome that resulted."
+    }
+  ]
+}
