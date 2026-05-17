@@ -112,7 +112,7 @@ export default function IndustryInsights() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="glass-card p-6 md:p-8 rounded-[1.5rem]"
+            className="glass-premium p-6 md:p-8 rounded-[1.5rem]"
           >
             <div className="flex items-center justify-between mb-6">
               <div>
@@ -166,7 +166,7 @@ export default function IndustryInsights() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="glass-card p-6 md:p-8 rounded-[1.5rem]"
+            className="glass-premium p-6 md:p-8 rounded-[1.5rem]"
           >
             <div className="flex items-center justify-between mb-6">
               <div>

@@ -141,9 +141,14 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/[0.05] flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} DiplomaPath Premium. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-1 text-center md:text-left">
+            <p className="text-xs text-slate-500">
+              © {new Date().getFullYear()} DiplomaPath Premium. All rights reserved.
+            </p>
+            <p className="text-[10px] text-slate-600">
+              All data are taken from AI
+            </p>
+          </div>
           <div className="flex items-center gap-6 text-xs text-slate-500">
             <button onClick={() => { setActiveTab('privacy'); window.scrollTo(0,0); }} className="hover:text-white transition-colors">Privacy Policy</button>
             <button onClick={() => { setActiveTab('terms'); window.scrollTo(0,0); }} className="hover:text-white transition-colors">Terms of Service</button>

@@ -54,9 +54,11 @@ export default function CareerGuru() {
       <div className={`fixed bottom-6 right-6 flex flex-col items-center gap-2 z-50 transition-transform ${isOpen ? 'scale-0' : 'scale-100'}`}>
         <button
           onClick={() => setIsOpen(true)}
-          className="p-4 rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 text-white shadow-lg shadow-indigo-900/30 hover:shadow-indigo-500/40 transition-all animate-bounce"
+          className="w-16 h-16 rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 p-0.5 shadow-lg shadow-indigo-900/30 hover:shadow-indigo-500/40 transition-all animate-bounce overflow-hidden relative"
         >
-          <MessageSquare size={24} />
+          <div className="w-full h-full rounded-full overflow-hidden border-2 border-white/20 bg-slate-900">
+            <img src="/career-guru.png" alt="Career Guru" className="w-full h-full object-cover" />
+          </div>
         </button>
         <span className="text-xs font-bold text-white bg-slate-900/80 px-2 py-1 rounded-md backdrop-blur-sm border border-white/10 shadow-lg">Career Guru</span>
       </div>
@@ -73,8 +75,10 @@ export default function CareerGuru() {
             {/* Header */}
             <div className="p-4 border-b border-white/[0.05] bg-white/[0.02] flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 flex items-center justify-center">
-                  <Bot size={18} className="text-white" />
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-violet-500 p-[2px] shrink-0">
+                  <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
+                    <img src="/career-guru.png" alt="Career Guru" className="w-full h-full object-cover" />
+                  </div>
                 </div>
                 <div>
                   <h3 className="font-bold text-white text-sm">Career Guru</h3>

@@ -220,14 +220,14 @@ export default function CareerQuiz() {
                 </p>
 
                 {/* Stats Row */}
-                <div className="grid grid-cols-2 gap-3 mb-8 max-w-sm mx-auto">
-                  <div className="glass p-4 rounded-xl text-center">
-                    <p className="text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Salary Range</p>
-                    <p className="text-lg font-bold text-white">{result?.salary}</p>
+                <div className="grid grid-cols-2 gap-4 mb-10 max-w-lg mx-auto">
+                  <div className="glass-panel p-5 rounded-2xl text-center border-t border-t-indigo-500/30 shadow-[0_10px_30px_rgba(99,102,241,0.1)] hover:-translate-y-1 transition-transform">
+                    <p className="text-[10px] text-slate-400 uppercase tracking-[0.2em] font-bold mb-2">Expected Salary</p>
+                    <p className="text-xl font-bold text-white tracking-tight">{result?.salary}</p>
                   </div>
-                  <div className="glass p-4 rounded-xl text-center">
-                    <p className="text-xs text-slate-500 uppercase tracking-widest font-bold mb-1">Demand</p>
-                    <p className="text-lg font-bold text-emerald-400">Very High</p>
+                  <div className="glass-panel p-5 rounded-2xl text-center border-t border-t-emerald-500/30 shadow-[0_10px_30px_rgba(16,185,129,0.1)] hover:-translate-y-1 transition-transform">
+                    <p className="text-[10px] text-slate-400 uppercase tracking-[0.2em] font-bold mb-2">Industry Demand</p>
+                    <p className="text-xl font-bold text-emerald-400 tracking-tight">Very High</p>
                   </div>
                 </div>
 
@@ -254,16 +254,16 @@ export default function CareerQuiz() {
                   </div>
                 </div>
 
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
                   <button 
                     onClick={() => setActiveTab("roadmaps")}
-                    className="px-8 py-4 rounded-xl font-bold btn-gradient text-white flex items-center justify-center gap-2"
+                    className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold bg-indigo-600 text-white flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(99,102,241,0.3)] hover:bg-indigo-500 hover:shadow-[0_0_50px_rgba(99,102,241,0.5)] transition-all duration-300 hover:-translate-y-1"
                   >
                     View My Detailed Roadmap <ArrowRight size={18} />
                   </button>
                   <button
                     onClick={reset}
-                    className="px-8 py-4 rounded-xl font-bold bg-white/[0.03] border border-white/[0.08] text-slate-400 flex items-center justify-center gap-2 hover:text-white hover:border-white/[0.15] transition-all"
+                    className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold glass text-slate-300 flex items-center justify-center gap-2 hover:text-white border border-white/[0.08] hover:bg-white/[0.05] transition-all duration-300 hover:-translate-y-1"
                   >
                     <RotateCcw size={16} />
                     Retake Quiz

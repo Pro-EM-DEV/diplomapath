@@ -199,51 +199,51 @@ export default function CareerPaths() {
               className="cursor-pointer group"
             >
               <div className={cn(
-                "h-full glass-card p-7 rounded-[1.5rem] flex flex-col relative overflow-hidden",
+                "h-full glass-premium p-7 rounded-[1.5rem] flex flex-col relative overflow-hidden transition-all duration-500 hover:-translate-y-2",
                 path.borderColor
               )}>
                 {/* Hover glow */}
                 <div className={cn(
-                  "absolute top-0 right-0 w-40 h-40 rounded-full blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-500",
+                  "absolute -top-20 -right-20 w-64 h-64 rounded-full blur-[100px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none",
                   path.bgGlow
                 )} />
 
                 {/* Icon + Growth */}
-                <div className="flex items-start justify-between mb-5 relative z-10">
+                <div className="flex items-start justify-between mb-6 relative z-10">
                   <div className={cn(
-                    "w-14 h-14 rounded-2xl bg-gradient-to-br flex items-center justify-center text-white shadow-lg transition-transform duration-300 group-hover:scale-110",
+                    "w-16 h-16 rounded-2xl bg-gradient-to-br flex items-center justify-center text-white shadow-xl transition-transform duration-500 group-hover:scale-110",
                     path.color
                   )}>
-                    <path.icon size={26} />
+                    <path.icon size={28} />
                   </div>
-                  <span className="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-1 rounded-lg border border-emerald-500/20">
+                  <span className="text-[10px] font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-lg border border-emerald-500/20 shadow-[0_0_15px_rgba(16,185,129,0.1)]">
                     {path.growth}
                   </span>
                 </div>
 
                 {/* Title & Description */}
-                <h3 className="text-xl font-bold mb-2 text-white relative z-10">{path.title}</h3>
-                <p className="text-slate-400 text-sm mb-6 flex-grow leading-relaxed relative z-10">
+                <h3 className="text-2xl font-bold mb-3 text-white relative z-10 group-hover:text-indigo-300 transition-colors">{path.title}</h3>
+                <p className="text-slate-400 text-sm mb-8 flex-grow leading-relaxed relative z-10 font-medium">
                   {path.description}
                 </p>
 
                 {/* Salary */}
-                <div className="flex items-center justify-between text-sm mb-4 relative z-10">
-                  <span className="text-slate-500 font-medium">Expected Salary</span>
-                  <span className="font-bold text-white">{path.salary}</span>
+                <div className="flex items-center justify-between text-sm mb-6 relative z-10 pb-4 border-b border-white/[0.05]">
+                  <span className="text-slate-500 font-medium uppercase tracking-wider text-[10px]">Expected Salary</span>
+                  <span className="font-bold text-white bg-white/[0.05] px-3 py-1 rounded-full border border-white/[0.05]">{path.salary}</span>
                 </div>
 
                 {/* Skills */}
-                <div className="flex flex-wrap gap-1.5 mb-5 relative z-10">
+                <div className="flex flex-wrap gap-2 mb-8 relative z-10">
                   {path.skills.slice(0, 4).map(skill => (
-                    <span key={skill} className="tag-pill">{skill}</span>
+                    <span key={skill} className="text-xs font-semibold px-2.5 py-1 rounded-md bg-slate-800/80 border border-slate-700 text-slate-300">{skill}</span>
                   ))}
                 </div>
 
                 {/* CTA */}
-                <button className="w-full py-3 rounded-xl border border-white/[0.08] text-sm font-semibold hover:bg-white/[0.03] transition-all flex items-center justify-center gap-2 group/btn relative z-10">
-                  View Full Roadmap
-                  <ChevronRight size={16} className="group-hover/btn:translate-x-1 transition-transform text-indigo-400" />
+                <button className="w-full py-3.5 rounded-xl border border-indigo-500/20 text-indigo-300 text-sm font-bold hover:bg-indigo-500 hover:text-white transition-all flex items-center justify-center gap-2 group/btn relative z-10 shadow-[0_0_20px_rgba(99,102,241,0.05)] hover:shadow-[0_0_30px_rgba(99,102,241,0.3)]">
+                  Explore Full Roadmap
+                  <ChevronRight size={18} className="group-hover/btn:translate-x-1 transition-transform" />
                 </button>
               </div>
             </motion.div>

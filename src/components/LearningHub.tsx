@@ -259,11 +259,11 @@ export default function LearningHub() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.05 }}
-              className="glass-card p-6 rounded-[1.5rem] flex flex-col h-full group relative overflow-hidden"
+              className="glass-premium p-6 rounded-[1.5rem] flex flex-col h-full group relative overflow-hidden shadow-xl hover:shadow-indigo-500/10 hover:-translate-y-2 transition-all duration-500"
             >
               {/* Top Row */}
               <div className="flex items-center justify-between mb-4">
-                <div className={cn("p-2.5 rounded-xl", resource.bgColor, resource.color)}>
+                <div className={cn("p-2.5 rounded-xl transition-transform duration-300 group-hover:scale-110", resource.bgColor, resource.color)}>
                   <resource.icon size={20} />
                 </div>
                 <div className="flex items-center gap-2">
@@ -272,7 +272,7 @@ export default function LearningHub() {
               </div>
 
               <h3 className="text-base font-bold mb-2 text-white group-hover:text-indigo-300 transition-colors">{resource.title}</h3>
-              <p className="text-slate-500 text-xs mb-4 flex-grow leading-relaxed">{resource.description}</p>
+              <p className="text-slate-400 text-xs mb-4 flex-grow leading-relaxed font-medium">{resource.description}</p>
 
               {/* Meta */}
               <div className="space-y-2 mb-4">
