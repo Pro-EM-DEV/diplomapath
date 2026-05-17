@@ -111,7 +111,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3 text-sm text-slate-400">
                 <Mail size={18} className="text-indigo-400 shrink-0 mt-0.5" />
-                <a href="mailto:info@diplomapath.com" className="hover:text-indigo-400 transition-colors">info@diplomapath.com</a>
+                <a href="mailto:info@diplomapath.online" className="hover:text-indigo-400 transition-colors">info@diplomapath.online</a>
               </li>
             </ul>
           </div>
